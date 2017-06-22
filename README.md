@@ -1,4 +1,4 @@
-# Channel
+# Kaplan
 
 This project was generated for Kaplan. version 1.0.0.
 

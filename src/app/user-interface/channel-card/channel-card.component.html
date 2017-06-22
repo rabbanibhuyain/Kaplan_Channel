@@ -1,0 +1,29 @@
+
+<div class="card">
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="kp-header">
+      <img class="photo" src="{{cardData.subjectPhotoUrl}}">
+      <span class="kp-title kp-fs-lg">{{cardData.title}}</span>
+      </div>
+      <div class="card-data-block">
+        <p class="card-data-block">{{cardData.description}}</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="kp-header">
+        <img class="photo" src="{{cardData.instructorPhotoUrl}}">
+        <span class="kp-title kp-fs-md">{{cardData.instructorName}}</span>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+       <div class="kp-header">
+      <p class="kp-title kp-fs-md kp-margin">{{cardData.time| eventTimeFormat }}</p>
+       </div>
+    </div>
+
+  </div> <!-- Row End-->
+</div>

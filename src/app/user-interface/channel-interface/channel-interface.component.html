@@ -1,0 +1,7 @@
+
+<div *ngFor="let channelGroup of groupedData">
+    <p class="kp-title kp-fs-lg kp-font-color kp-m-top">{{channelGroup[0].time | formatDateHeader}}</p>
+    <div *ngFor="let channel of channelGroup">
+      <kp-channel-card [cardData]="channel"></kp-channel-card>
+    </div>
+</div>

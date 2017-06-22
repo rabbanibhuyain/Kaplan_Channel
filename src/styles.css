@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  background-color:#F7F7FA;
+  font-family: 'Open Sans', sans-serif;
+}
+.kp-title{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight:bold;
+}
+.kp-fs-md{
+  font-size: 16px;
+}
+.kp-fs-lg{
+  font-size: 20px;
+}
+
+.kp-font-color{
+  color: #777;
+}
+
+.kp-m-top{
+  margin-top: 20px;
+}
+
+

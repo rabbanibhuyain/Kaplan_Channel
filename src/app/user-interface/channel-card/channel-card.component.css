@@ -1,0 +1,32 @@
+card{
+  background-color: #FFF;
+  height: 350px;
+
+}
+
+.kp-header{
+  display: inline;
+  margin:15px 5px 15px 20px;
+}
+
+
+
+
+
+.photo {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, .8);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.card-data-block{
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin: auto auto auto 40px;
+  font-size: 14px;
+  color: #777
+}

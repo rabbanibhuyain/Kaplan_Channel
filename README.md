@@ -1,6 +1,9 @@
 # Channel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+## Run JSON Server to fake REST API for Data
+
+Run in one command prompt/terminal `npm run mockService` to fake REST API for Data
 
 ## Development server
 
